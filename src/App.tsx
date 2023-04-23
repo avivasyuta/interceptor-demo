@@ -34,7 +34,7 @@ function App() {
 
         const xhr = new XMLHttpRequest();
         xhr.responseType = 'json';
-        xhr.open('GET', 'https://jsonplaceholder.typicode.com/posts/2', true);
+        xhr.open('GET', 'https://jsonplaceholder.typicode.com/posts/1', true);
         xhr.send(null);
         xhr.onreadystatechange = () => {
             if (xhr.readyState === 4) {
